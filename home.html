@@ -7,10 +7,15 @@
 		<title></title>
 
 <style>
+
+  *{
+  	box-sizing:border-box;
+   }
+
 #banner{
 	width:auto;
-	height:200px;
-	padding: 100px;
+	height:300px;
+	padding-top: 50px;
 	margin: 0px;
 	background: url("assets/puppies.jpg");
 	background-repeat: no-repeat;
@@ -19,13 +24,16 @@
 
 .tinylogo{
 	margin: 0px;
-	width: 150px;
+	width: 250px;
 }
 
 #about, #contact{
 	width: 50%;
 	height: 200px;
 	float: left;
+	text-align: center;
+	border: solid;
+	border-width: 1px;
 }
 
 </style>
@@ -46,17 +54,23 @@
 	</nav>
 
 	<div id="banner">
-	<h2>Welcome To</h2>
+	<h1>Welcome To</h1>
 	<img src="assets/logo.png" class="tinylogo">
 	</div>
 
 	<div id="about">
+	<h2>About</h2>
 	<p>This page takes you to the About Page</p>
+	<br>
+	<br>
 	<a href="" class="btnlink">Learn More</a>
 	</div>
 
 	<div id="contact">
+	<h2>Contact</h2>
 	<p>This page takes you to the Contact Page</p>
+	<br>
+	<br>
 	<a href="" class="btnlink">Learn More</a>
 	</div>
 
